@@ -10,6 +10,22 @@ let lateral = document.querySelector(' .d-1-right');
 
 let numeros = document.querySelector(' .d-1-3');
 
+let etapaAtual = 0;
 
+
+
+
+function clicou (n) {
+    alert("Clicou em "+n);
+}
+function branco () {
+    alert("Clicou em BRANCO!");
+}
+function corrige () {
+    alert("Clicou em CORRIGE!");
+}
+function confirma () {
+    alert("Clicou em CONFIRMA!");
+}
 
 
