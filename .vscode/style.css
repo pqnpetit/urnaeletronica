@@ -54,9 +54,16 @@ body {
     display: inline-block;
     width: 30px;
     height: 40px;
-    border: 1px solid #000;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    animation: pisca;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 
 }
+
 
 .d-1-4 {
     flex: 1;
@@ -119,3 +126,8 @@ body {
     height: 50px;
 }
 
+@keyframes pisca {
+    0% {opacity: 0.2;}
+    50% {opacity: 1;}
+    100% {opacity: 0.2;}
+}
