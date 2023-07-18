@@ -43,10 +43,19 @@ body {
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .d-1-3 {
     height: 50px;
+}
+
+.numero {
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    border: 1px solid #000;
+
 }
 
 .d-1-4 {
