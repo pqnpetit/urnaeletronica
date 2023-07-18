@@ -12,7 +12,18 @@ let numeros = document.querySelector(' .d-1-3');
 
 let etapaAtual = 0;
 
+function comecarEtapa() {
+    let etapa = etapas[etapaAtual];
 
+    let numeroHtml = '';
+
+    seuVotoPara.style.display = "none";
+    cargo.innerHTML = etapa.titulo;
+    descricao.innerHTML = '';
+    aviso.style.display = "none";
+    lateral.innerHTML = '';
+    numeros.innerHTML = numeroHtml;
+}
 
 
 function clicou (n) {
@@ -27,5 +38,4 @@ function corrige () {
 function confirma () {
     alert("Clicou em CONFIRMA!");
 }
-
 

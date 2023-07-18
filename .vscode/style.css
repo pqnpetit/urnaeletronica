@@ -50,6 +50,12 @@ body {
     height: 50px;
 }
 
+.pisca {
+    animation-name: pisca;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 .numero {
     display: inline-block;
     width: 30px;
@@ -58,10 +64,6 @@ body {
     text-align: center;
     line-height: 40px;
     font-size: 24px;
-    animation: pisca;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-
 }
 
 
